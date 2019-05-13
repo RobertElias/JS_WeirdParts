@@ -22,3 +22,17 @@ function b(){
 
 a();
 var d;
+
+//Variable Environment: Where is the variable
+
+function b(){
+    var myVar;
+}
+
+function a() {
+    var myVar = 2;
+    b();
+}
+
+var myVar = 1;
+a();
