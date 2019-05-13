@@ -1,9 +1,11 @@
 
-var a = "Hello World!";
+var a = "Robert Elias";
 
-function b(){
-    console.log('Called b!');
-}
-
-b();
 console.log(a)
+
+if (a === undefined) {
+    console.log('a is undefined!')
+}
+else {
+    console.log('a is defined!')
+}
